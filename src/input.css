@@ -10,10 +10,6 @@
   --shadow-Box: 10px 10px hsl(0, 0%, 7%);
 }
 
-@theme {
-   
-}
-
 @font-face {
   font-family: Figtree;
   font-style: normal;
