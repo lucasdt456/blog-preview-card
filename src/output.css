@@ -223,6 +223,9 @@
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
   }
+  .cursor-pointer {
+    cursor: pointer;
+  }
   .place-content-center {
     place-content: center;
   }
@@ -298,6 +301,11 @@
   .shadow-Box {
     --tw-shadow: 10px 10px var(--tw-shadow-color, hsl(0, 0%, 7%));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  @media (hover: hover) {
+    .hover\:text-Yellow:hover {
+      color: var(--color-Yellow);
+    }
   }
   @media (width >= 40rem) {
     .sm\:mb-5 {
